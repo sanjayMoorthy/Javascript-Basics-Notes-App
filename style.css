@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(157, 157, 255);
+}
+img.addnotes {
+    height: 150px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.popUpinputs {
+    box-shadow: 0px 0px 50px 1px;;
+    height: 300px;
+    width: 325px;
+    margin-left: 465px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: rgb(186, 224, 250);
+    display:none;
+}
+input.name {
+    height: 30px;
+    width: 300px;
+    margin-left: 13px;
+    outline: none;
+}
+textarea.description {
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 13px;
+    outline: none;
+}
+label.title {
+    margin-left: 140px;
+    font-size: 20px;
+}
+label.Description {
+    margin-left: 125px;
+    font-size: 15px;
+}
+button.submit {
+    height: 25px;
+    width: 100px;
+    margin-left: 115px;
+    margin-top: 15px;
+    background-color: rgb(23, 87, 95);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+p{
+    word-wrap: break-word;
+
+}
+.note::-webkit-scrollbar{
+    display: none;
+}
+
+.note {
+    box-shadow: 0px 0px 6px 0px;
+    height: 150px;
+    width: 155px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.box {
+    display: flex;
+    
+}
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.loadingImg {
+    margin-left: 565px;
+    height: 165px;
+    display: none;
+}
+.addNotes {
+    display: none;
+    background-color:white;
+}
+h3{
+    text-align: center;
+}
+.inputFeildError{
+    display: none;
+    background-color:white;
+}
+.buttonDiv {
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    width: 128px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    top: 56px;
+    left: 12px;
+    display: none;
+}
+.deletebtn {
+    height: 20px;
+    width: 50px;
+    background-color: mediumpurple;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.editBtn {
+    height: 20px;
+    width: 50px;
+    background-color: mediumpurple;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.dropBtn {
+    position: relative;
+    top: 88px;
+    left: 68px;
+    cursor: pointer;
+}
+
+.active{
+    display: block;
+}
